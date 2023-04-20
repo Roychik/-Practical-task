@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="README.css">
+    <title>Без назви</title>
+</head>
+<body>
+    
+    <div class="img"><img src="https://cdn.pixabay.com/photo/2023/04/16/21/44/golfer-7931221__340.jpg" alt="" srcset=""></div>
+    <div class="text">Залиште свій відгук у текстовому полі яке знаходиться нижче</div>
+    <form action="https://api.mailtrap.io/v1/messages" method="post">
+        <input type="hidden" name="api_token" value="your_api_token_here">
+        <input type="hidden" name="to" value="your_email_address_here">
+        <input type="hidden" name="subject" value="New feedback from your website">
+        
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="feedback">Feedback:</label>
+        <textarea id="feedback" name="feedback" required></textarea>
+        
+        <button type="submit">Send</button>
+      </form>
+      
+
+      <script src="jquery-3.6.4.min.js"></script>
+      <script src="slick.min.js"></script>
+      <script src="jquery-ui.min.js"></script>
+    <script src="README.JS"></script>
+</body>
+
+</html>

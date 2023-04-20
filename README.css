@@ -1,0 +1,29 @@
+.img{
+    display: flex;
+    justify-content: center;
+
+}
+.text{
+    
+    display: flex;
+    justify-content: center;
+    background-color: #666;
+    color: #ffffff;
+    font-size: 45px;
+    
+
+}
+.name{
+    position: absolute;
+    left: 30px;
+    background-color: #666;
+    color: #ffffff;
+    font-size: 30px;
+}
+.email{
+    position: absolute;
+    left: 160px;
+    background-color: #666;
+    color: #ffffff;
+    font-size: 30px;
+}
